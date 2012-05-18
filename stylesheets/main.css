@@ -1,3 +1,15 @@
+/* --- Translation element ---- */   
+   translation ul {
+      list-style: none;  /* remove bullet points*/
+      float: right;
+      margin-right: 40px;
+   }
+   
+   /* font style for translation element */
+   translation ul a{
+      color:black;
+   }
+  
 /* ---- Main Navigation Menu --- */
    main_nav{
       /*width:972px;
@@ -44,7 +56,7 @@
       padding-left: 1em; /*spacing b/n tabs*/
    }
 
-   /*Remove borders from the left-most and right-most menu tabs*/
+   /* remove borders from the left-most and right-most menu tabs*/
    main_nav > ul > li.element1 > a{border:none}
    
    /* make room between the top of drop-down and global nav bar*/
@@ -59,7 +71,7 @@
       font-size: 14px;
    }
 
-/* Drop down menu */
+/* ---drop down menu--- */
    /* Hide drop-down menu */
    main_nav > ul ul{
 		position:absolute; 
@@ -71,11 +83,10 @@
 		display:none 
 	} 
 
-/*main_nav > ul ul a:hover{
-		text-decoration:none;
-		background-color:#616666
-	}
-*/
+   /* make drop-down menu appear upon hover*/
+   main_nav li:hover ul {
+      display:block;
+   }
 
 
 /*
