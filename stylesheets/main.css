@@ -1,17 +1,17 @@
 /* --- Translation element ---- */   
-   translation ul {
+   #translation ul {
       list-style: none;  /* remove bullet points*/
       float: right;
       margin-right: 40px;
    }
    
    /* font style for translation element */
-   translation ul a{
+   #translation ul a{
       color:black;
    }
   
 /* ---- Main Navigation Menu --- */
-   main_nav{
+   #main_nav{
       /*width:972px;
       height:90px;*/
       background:url(../images/menu_bar.png)
@@ -21,18 +21,18 @@
       left:0
    }
    
-   main_nav li{
+   #main_nav li{
 	 position: relative;
 	 display: block;
    }
    
-   main_nav ul {
+   #main_nav ul {
       list-style: none;  /* remove bullet points*/
       margin: 0;
    }
     
    /* make unordered list elements flow in one line */
-   main_nav > ul > li{
+   #main_nav > ul > li{
       float: left;
       height: 78px;
       display: inline-block;
@@ -42,7 +42,7 @@
     
 
    /* line-height*/
-   main_nav > ul > li > a{
+   #main_nav > ul > li > a{
       display: block;
       line-height:20px;
       text-decoration:none;
@@ -57,23 +57,22 @@
    }
 
    /* remove borders from the left-most and right-most menu tabs*/
-   main_nav > ul > li.element1 > a{border:none}
+   #main_nav > ul > li.element1 > a{border:none}
    
    /* make room between the top of drop-down and global nav bar*/
-   main_nav > ul > li > ul > li.subelement1{
+   #main_nav > ul > li > ul > li.subelement1{
       padding-top: .8em;
    }
    
    /* left-align drop-down elements with practice area element*/
-   main_nav > ul > li > ul > li{
+   #main_nav > ul > li > ul > li{
       padding-left: 1.5em;
       padding-bottom: .2em;
-      font-size: 14px;
    }
 
 /* ---drop down menu--- */
    /* Hide drop-down menu */
-   main_nav > ul ul{
+   #main_nav > ul ul{
 		position:absolute; 
 		/*z-index:100;
 		left:5px;
@@ -84,9 +83,30 @@
 	} 
 
    /* make drop-down menu appear upon hover*/
-   main_nav li:hover ul {
+   #main_nav li:hover ul {
       display:block;
    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
