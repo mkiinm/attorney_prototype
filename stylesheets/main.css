@@ -12,9 +12,9 @@
   
 /* ---- Main Navigation Menu --- */
    #main_nav{
-      /*width:972px;
-      height:90px;*/
-      background:url(../images/menu_bar.png)
+      width:972px;
+      height:90px;
+      background:url(../images/menu_bar.png);
       left top no-repeat;
       /*position:absolute;*/
       bottom:0;
@@ -24,6 +24,7 @@
    #main_nav li{
 	 position: relative;
 	 display: block;
+	 width:124px;
    }
    
    #main_nav ul {
@@ -37,7 +38,7 @@
       height: 78px;
       display: inline-block;
       /*width: 130px;*/
-      padding-right: 1.4em; /*spacing b/n tabs*/
+      padding-right: 1em; /*spacing b/n tabs*/
    }
     
 
@@ -49,7 +50,7 @@
       text-align:center;
       color: black;
       font-style:normal;
-      font-size: 18px;
+      font-size: 17px;
       font-family:"MS Reference Sans Serif", Times, Serif; /*use MS Ref. Sans Serif; if the font style doesn't exist, use any types of Times or Serif*/
       font-weight: normal;
       border-left: 1px solid #5a5c62;
@@ -90,10 +91,87 @@
    /* form styles */
    #form_name {
       font-size: 16px;
+	  margin-left:60px;
    }
 
    #form_subname {
       font-size: 14px;
+	  margin-left:60px;
+   }
+
+#buttons{
+
+float:right;
+
+}
+   
+
+/* ---- Sub Navigation Menu --- */
+   
+   
+   
+   #sub_nav{
+      width:972px;
+      height:84px;
+      background:;
+      left top no-repeat;
+      border-style: solid;
+		border-width:1px;
+      bottom:0;
+      left:0;
+	  padding: 10px;
+   }
+   
+   #sub_nav li{
+	 position: relative;
+	 display: block;
+	 width:176px;
+	 height:150px;
+	 
+   }
+   
+   #sub_nav ul {
+      list-style: none;  /* remove bullet points*/
+      margin: 0;
+   }
+    
+   /* make unordered list elements flow in one line */
+   #sub_nav > ul > li{
+      float: left;
+      height: 78px;
+      display: inline-block;
+      /*width: 130px;*/
+      padding-right: 1.4em; /*spacing b/n tabs*/
+   }
+    
+
+   /* line-height*/
+   #sub_nav > ul > li > a{
+      display: block;
+      line-height:20px;
+      text-decoration:none;
+      text-align:center;
+      color: black;
+      font-style:normal;
+      font-size: 18px;
+      font-family:"MS Reference Sans Serif", Times, Serif; /*use MS Ref. Sans Serif; if the font style doesn't exist, use any types of Times or Serif*/
+      font-weight: normal;
+      border-left: 1px solid #5a5c62;
+      padding-left: 1em; /*spacing b/n tabs*/
+   }
+
+   /* remove borders from the left-most and right-most menu tabs*/
+   #sub_nav > ul > li.element1 > a{border:none}
+   
+   /* make room between the top of drop-down and global nav bar*/
+   #sub_nav > ul > li > ul > li.subelement1{
+      padding-top: .8em;
+   }
+   
+   /* left-align drop-down elements with practice area element*/
+   #sub_nav > ul > li > ul > li{
+      padding-left: 1.5em;
+      padding-bottom: .2em;
    }
 
 
@@ -103,12 +181,12 @@
 
 
 
-
-
-
-
-
-
+  #fixedbottom{
+  
+  position:relative;
+  
+  
+  }
 
 
 
