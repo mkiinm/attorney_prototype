@@ -1,3 +1,9 @@
+   #banner_image {
+      height: 100px;
+      background: url('../images/banner.png');
+   }
+
+
 /* --- Translation element ---- */   
    #translation ul {
       list-style: none;  /* remove bullet points*/
@@ -15,7 +21,7 @@
       width:972px;
       height:90px;
       background:url(../images/menu_bar.png);
-      left top no-repeat;
+      /*left top no-repeat;*/
       /*position:absolute;*/
       bottom:0;
       left:0
@@ -37,7 +43,7 @@
       height: 78px;
       display: inline-block;
       /*width: 130px;*/
-      /*padding-right: 1em; *//*spacing b/n tabs*/
+      /*padding-right: 1em; */ /* unclickable spacing b/n tabs*/
    }
     
 
@@ -62,13 +68,13 @@
    
    /* make room between the top of drop-down and global nav bar*/
    #main_nav > ul > li > ul > li.subelement1{
-      padding-top: .8em;
+      padding-top:.8em;
    }
    
    /* left-align drop-down elements with practice area element*/
    #main_nav > ul > li > ul > li{
-      padding-left: 1.5em;
-      padding-bottom: .2em;
+      padding-left:1.5em;
+      padding-bottom:.2em;
    }
 
 /* ---drop down menu--- */
@@ -90,19 +96,19 @@
 
    /* form styles */
    #form_name {
-      font-size: 16px;
+      font-size:16px;
 	  margin-left:60px;
    }
 
    #form_subname {
-      font-size: 14px;
-	  margin-left:60px;
+      font-size:14px;
+      margin-left:60px;
    }
 
 #buttons{
 
-float:right;
-margin-right:20px;
+   float:right;
+   margin-right:20px;
 
 }
    
@@ -116,18 +122,18 @@ margin-right:20px;
       height:84px;
       background:;
       left top no-repeat;
-      border-style: solid;
-		border-width:0px;
+      border-style:solid;
+      border-width:0px;
       bottom:0;
       left:0;
-	  padding: 10px;
+      padding:10px;
    }
    
    #sub_nav li{
-	 position: relative;
-	 display: block;
-	 width:176px;
-	 height:150px;
+      position: relative;
+      display: block;
+      width: 176px;
+       height: 150px;
 	 
    }
    
@@ -149,13 +155,13 @@ margin-right:20px;
    /* line-height*/
    #sub_nav > ul > li > a{
       display: block;
-      line-height:20px;
-      text-decoration:none;
-      text-align:center;
+      line-height: 20px;
+      text-decoration: none;
+      text-align: center;
       color: black;
-      font-style:normal;
+      font-style: normal;
       font-size: 18px;
-      font-family:"MS Reference Sans Serif", Times, Serif; /*use MS Ref. Sans Serif; if the font style doesn't exist, use any types of Times or Serif*/
+      font-family: "MS Reference Sans Serif", Times, Serif; /*use MS Ref. Sans Serif; if the font style doesn't exist, use any types of Times or Serif*/
       font-weight: normal;
       border-left: 1px solid #5a5c62;
       padding-left: 1em; /*spacing b/n tabs*/
@@ -184,180 +190,19 @@ margin-right:20px;
 
   #fixedbottom{
    position:fixed;
-   z-index: 1;
-      bottom: 0;
-      z-index: 1;
-      height: 15em;
-      margin: 0;
+   z-index:1;
+      bottom:0;
+      z-index:1;
+      height:15em;
+      margin:0;
       background:white;
+      border-top: solid;
+      border-width: 1px;
+      border-color: black;
   }
 
 
 
-
-
-
-/*
-#lowerinfo{
-border-style:solid;
-border-width: 0px 1px 0px 0px;
-height:150px;
-border-color:#c40c1d;
-padding-right:5px;
-padding-left:10px;
-}
-
-#banner_nav{
-background:#c40c1d;
-}
-#searchbar{
- padding:35px 0px 0px 200px;
-
-
-}
-
-
-#banner_nav li{
-font-size:15px;
-float:left;
-width:80px;
-display:block;
-margin-left: 0px;
-margin-bottom:15px;
-padding: 0px 0px 0px 0px ;
-
-border-style:solid;
-border-width:0px 0px 0px 0px;
-color:white;
-text-align:center;
-padding-top:10px;
-}
-
-.active{
-text-decoration: underline;
-font-weight: bold;
-background:green;
-}
-
-
-.menu{
-text-align:right;
-padding:20px;
-}
-
-h1{
-color:white;
-}
-
-h3{
-color:white;
-}
-
-#topper{
-border-style:solid;
-border-right-width:0px;
-border-left-width:0px;
-border-top-width:0px;
-border-bottom-width:1px;
-border-color:#c40c1d;
-
-height:500px;
-}
-
-
-
-.row{
-padding-top:0px;
-}
-
-.container{
-padding: 10px;
--webkit-border-radius: 10px;
-
-}
-
-#everything{
-background: url('../images/husk.png') ;
-height:1310px;
-}
-
-ul {
-list-style-type: none;
-}
-
-#breadcrumb{
-margin-right:200px;
-
-}
-
-.breadcrumb a{
-color:black;
-
-}
-
-
-
-
-
-
-#banner{
-height:125px;
-
--webkit-border-radius: 10px 0px 0px 0px;
-
--moz-border-radius: 10px 0px 0px 0px;
-
-
-/*
-background: url('../images/louisiana_banner2.png');
-}
-
-#banner li{
-color:black;
-
-float:right;
-
-width:105px;
-padding-top:12px;
-}
-
-
-
-
-#maincontent{
-height: 980px ;
-background:white;
-
-
-}
-
-#footer {
-margin-top:12px;
-clear: both;
-width: 940px;
-background-color: #9A987D;
-padding: 10px 0px 0px 0px;
-border-color: #999;
-border-style: solid;
-border-width: 1px 1px 1px 1px;
-position:absolute;
--webkit-border-radius: 0px 0px 10px 0px;
--moz-border-radius: 0px 0px 10px 0px;
-height:80px;
-}
-
-#footer li{
-height:20px;
-font-size:12px;
-float:left;
-width:135px;
-display:block;
-margin-left: 0px;
-margin-bottom:0px;
-padding: 0px 5px 0px 5px ;
-border-style:solid;
-border-width:0px 1px 0px 0px;
-color:white;
-text-align:center;
-}
-*/
+   #alignment {
+      padding-left: 18px; /* same as global nav element font size */
+   }
