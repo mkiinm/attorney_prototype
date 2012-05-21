@@ -71,7 +71,7 @@
    }
 
 /* ---drop down menu--- */
-   /* Hide drop-down menu */
+   /* hide drop-down menu */
    #main_nav > ul ul{
 		position:absolute; 
 		/*z-index:100;
@@ -87,8 +87,14 @@
       display:block;
    }
 
+   /* form styles */
+   #form_name {
+      font-size: 16px;
+   }
 
-
+   #form_subname {
+      font-size: 14px;
+   }
 
 
 
