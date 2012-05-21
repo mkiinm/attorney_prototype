@@ -1449,7 +1449,7 @@ legend + .control-group {
 }
 
 .form-horizontal .control-group {
-  margin-bottom: 18px;
+  /*margin-bottom: 18px;*/
   *zoom: 1;
 }
 
